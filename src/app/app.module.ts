@@ -14,6 +14,8 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 // servicios
 import { HeroesService } from './services/heroes.services';
 import { HeroeComponent } from './components/heroe/heroe.component';
+import { HeroefirtComponent } from './components/heroefirt/heroefirt.component';
+import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { HeroeComponent } from './components/heroe/heroe.component';
     HomeComponent,
     AboutComponent,
     HeroesComponent,
-    HeroeComponent
+    HeroeComponent,
+    HeroefirtComponent,
+    HeroeTarjetaComponent
   ],
   imports: [
     BrowserModule,
